@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: grey;
+}
+
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(3, 26, 90, 0.911);
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.897);
+}
+.encabezado h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+}
+.principal {
+  width: 100vw;
+  max-width: 1440px;/* Se va adaptar a una resolucion maxima de 1440 por ancho */
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--blanco-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://images.pexels.com/photos/6547030/pexels-photo-6547030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.contenPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  gap: 20px;
+  padding-top: 20px;
+  color: white;
+}
+/* estilo para la seccion */
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  width: 90%;
+  height: 40%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px ;
+}
+/* estilos para el input y boton */
+.infDato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 50%;
+  gap: 20px;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50%;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.datos input {
+  text-align: center;
+  width: 70px;
+  height: 500px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.boton {
+  width: 150px;
+  height: 35%;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: rgba(192, 200, 206, 0.849);
+  border: 0;
+  box-shadow: 0px 0px 15px 0px ;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  color: rgb(21, 56, 121);
+}
+
+.boton:active{
+  transform: scale(0.9);
+}
+/* estilos para resultados del conversor */
+.conversor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 500px;
+  width: 90%;
+}
+.k ,.f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px ;
+}
+.k h2, .f h2{
+  font-size: 25px;
+}
+.k h4, .f h4{
+  font-size: 20px;
+}
+
+.footer{
+  width: 100%;
+  height: 70px;
+  font-size: 10px;
+  color: white;
+}
+.footer h2{
+  background-color: rgb(10, 37, 110);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+
+@media (min-width: 1200px) {
+/* estilos para el boton */
+
+.contenPrincipal {
+  justify-content: unset;
+  gap: 20px;
+}
+.info{
+  font-size: 24px;
+}
+/* estilos para resultados del conversor */
+.conversor {
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 50px;
+  height: 500px;
+}
+.footer{
+  font-size: 12px;
+}
+
+}
