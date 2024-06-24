@@ -1,4 +1,4 @@
-# Convertidor Temperatura
+# Convertidor de Temperatura
 
 Recibimos por parte del usuario una temperatura en grados Celsius y lo convierte a
 grados Fahrenheit y Kelvin.
