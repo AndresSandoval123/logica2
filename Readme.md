@@ -1,9 +1,8 @@
-Ejercicio de lógica
+# Convertidor Temperatura
 
-Crear un programa en JavaScript que realice lo siguiente:
+Recibimos por parte del usuario una temperatura en grados Celsius y lo convierte a
+grados Fahrenheit y Kelvin.
 
-    Debe solicitar al usuario la temperatura en grados Celsius por prompt o por un input.
-    Debe convertir la temperatura ingresada de grados Celsius a grados Fahrenheit y Kelvin
-    Debe imprimir ambos resultados por consola o por el DOM.
-    Debe ser capaz de identificar si los datos de entrada sean de tipo number, en caso contrario debe mandar un mensaje de error y volver a solicitar los datos.
+Gracias
 
+![imagen](https://github.com/AndresSandoval123/logica2/assets/167252430/3bec0ef8-6efc-4484-bd06-99f5bc5a4433)
